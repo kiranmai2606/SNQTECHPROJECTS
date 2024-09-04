@@ -26,7 +26,7 @@ public class Task4 {
 		//System.out.println(str.compareTo(null));//Null pointer Exception 
 		//3.compareToIgnoreCase:
 		System.out.println(str.compareToIgnoreCase("LEARNING JAVA"));//Ignore case and returns 0 if both  the strings are  equal 
-		System.out.println(str.compareToIgnoreCase("learning java"));
+		System.out.println(str.compareToIgnoreCase ("learning java"));
 		System.out.println(str.compareToIgnoreCase("snqtech"));
 		//4.equals():Checks two string and return true if both strings are equal  else returns false
 			System.out.println(str.equals(str));//true case
@@ -66,9 +66,12 @@ public class Task4 {
 			 String str2 ="   java    ";
 			 System.out.println(str2.trim());
 		//19.split 
-			 
-		//20.content equals 
-			// System.out.println(str.contentEquals(str1));
+			 String str3 ="SNQTECH";
+				String arr[]=str3.split("Q");
+				System.out.println(arr[0]);
+				System.out.println(arr[1]);
+			//20.content equals 
+			System.out.println(str.contentEquals(str1));
 		
 			 
 		
